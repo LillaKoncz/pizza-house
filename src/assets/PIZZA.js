@@ -1,0 +1,122 @@
+import barbecue from'../images/pizzas/barbecue.png';
+import basalicumTomato from'../images/pizzas/basalicum-tomato.png';
+import basalicum from'../images/pizzas/basalicum.png';
+import capricosa from'../images/pizzas/capricosa.jpg';
+import eggpizza from'../images/pizzas/egg-pizza.png';
+import feta from'../images/pizzas/feta.png';
+import justPepperoni from'../images/pizzas/just-pepperoni.png';
+import meatLover from'../images/pizzas/meat-lover.png';
+import mushrooms from '../images/pizzas/mushrom-paprika.jpg';
+import mushromTomato from'../images/pizzas/mushrom-tomato.jpg';
+import oliva from'../images/pizzas/oliva.png';
+import pizzaPaprika from'../images/pizzas/pizza-paprika.jpg';
+import pizzaPepperoni from'../images/pizzas/pizza-pepperoni.jpg';
+import veganTomato from'../images/pizzas/vegan-tomato.jpg';
+import meatPaprika from'../images/pizzas/meat-paprika.png';
+
+ const PIZZAS = [
+    {
+        id: 1,
+        name: 'Barbecue Pizza',
+        image: barbecue,
+        price: '70 DKK',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incid',
+    },
+
+    {
+        id: 2,
+        name: 'Basalicum Tomato Pizza',
+        image: basalicumTomato,
+        price: '100 DKK',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incid',
+    },
+
+    {
+        id: 3,
+        name: 'Basalicum Pizza',
+        image: basalicum,
+        price: '120 DKK',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incid',
+    },
+    {
+        id: 4,
+        name: 'Capricosa Pizza',
+        image: capricosa,
+        price: '150 DKK',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incid',
+    },
+
+    {
+        id: 5,
+        name: 'Egg Pizza',
+        image: eggpizza,
+        price: '180 DKK',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incid',
+    },
+    {
+        id: 6,
+        name: 'Feta Pizza',
+        image: feta,
+        price: '200 DKK',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incid',
+    },
+    {
+        id: 7,
+        name: 'Pepperoni Pizza',
+        image: justPepperoni,
+        price: '220 DKK',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incid',
+    },
+    {
+        id: 8,
+        name: 'Meat Lover Pizza',
+        image: meatLover,
+        price: '250 DKK',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incid',
+    },
+
+    {
+        id: 9,
+        name: 'Mushrom Pizza',
+        image: mushrooms,
+        price: '280 DKK',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incid',
+    },
+    {
+        id: 10,
+        name: 'Mushrom Tomato Pizza',
+        image: mushromTomato,
+        price: '300 DKK',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incid',
+    },
+    {
+        id: 11,
+        name: 'Oliva Pizza',
+        image: oliva,
+        price: '320 DKK',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incid',
+    },
+    {
+        id: 12,
+        name: 'Paprika Pizza',
+        image: pizzaPaprika,
+        price: '350 DKK',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incid',
+    },
+    {
+        id: 13,
+        name: 'Pepperoni Paprika Pizza',
+        image: pizzaPepperoni,
+        price: '370 DKK',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incid',
+    },
+    {
+        id: 14,
+        name: 'Vegan Tomato Pizza',
+        image: veganTomato,
+        price: '400 DKK',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incid',
+    }
+]
+
+export default PIZZAS;

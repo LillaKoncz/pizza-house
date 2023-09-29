@@ -1,6 +1,8 @@
 import React from 'react'
 import { Nav } from '../nav/Nav'
 import './Menu.css'
+import PIZZAS from '../../assets/PIZZA'
+
 
 
 
