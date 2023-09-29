@@ -1,0 +1,24 @@
+.nav{
+    display: flex;  
+    justify-content: flex-end;
+    position: absolute;
+    top:3vh;
+    right:2vw;
+    list-style-type: none;
+    
+}
+
+.nav-links{
+    color:red;
+    list-style-type: none;
+    text-decoration: none;
+    margin-right:15px;
+}
+
+.back{
+    position: absolute;
+    top:3vh;
+    left:2vw;
+    border:none;
+    background-color: transparent;
+}
