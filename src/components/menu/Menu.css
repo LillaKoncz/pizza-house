@@ -1,7 +1,10 @@
+/* CSS FOR MENU AND MENUITEM */ 
+
 .menu-title{
     position: absolute;
     left:4vw;
     top:10vh;
+    letter-spacing: 4px;
 }
 
 .foods-box{
@@ -17,5 +20,52 @@
 }
 
 
+.pizza-box{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    max-width: 1200px;
+    margin-top:20vh;
+    margin-bottom:20vh;
+}
+
+.pizzaNameandImg{
+    text-align: center;
+    margin-bottom:5vh;
+    font-family: 'Lobster', cursive;
+}
+
+/* MEDIA QUERIES --------------------------*/
+
+@media screen and (min-width:1432px){
+    .pizza-box{
+        margin-left:8vw;
+        margin-right: auto;
+    }
+}
 
 
+@media screen and (min-width:1315px){
+    .pizza-box{
+        margin-left:13vw;
+        margin-right: auto;
+    }
+
+    .pizzaNameandImg{
+        margin:20px;
+    }
+}
+
+@media screen and (max-width:1315px) {
+    .pizzaNameandImg{
+        margin:20px;
+    }
+}
+
+
+@media screen and (max-width:450px) {
+    .pizza-img{
+        width:230px
+    }
+}

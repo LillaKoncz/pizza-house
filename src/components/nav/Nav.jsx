@@ -3,6 +3,7 @@ import {Link} from 'react-router-dom';
 import './Nav.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCartShopping, faUtensils } from '@fortawesome/free-solid-svg-icons';
+import { faArrowLeft } from '@fortawesome/free-solid-svg-icons';
 
 
 
@@ -16,7 +17,7 @@ export const Nav = () => {
             <li><Link className='nav-links'to='/pizza-house/order'></Link></li>    
             
     </nav>
-    <button className='back'>BACK</button>{/*ide szeretnek tenni egy nyilat vagy animacio nyilat, fugg a hatter szinetol */}
+    <button className='back'> <FontAwesomeIcon icon={faArrowLeft} /></button>{/*ide szeretnek tenni egy nyilat vagy animacio nyilat, fugg a hatter szinetol */}
 
     </>
   )

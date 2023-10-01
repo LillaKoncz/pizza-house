@@ -3,13 +3,15 @@ import { Nav } from '../nav/Nav'
 import './Menu.css'
 import PIZZAS from '../../assets/PIZZA'
 import {MenuItem} from './MenuItem'
+import background from '../../images/background.jpg'
+
 
 
 
 
 export const Menu = () => {
   return (
-    <>
+    <div>
       <Nav />
 
       <div className='menu-title'>
@@ -17,12 +19,12 @@ export const Menu = () => {
       </div>
 
 
-        {/*ha a pizzaval megy, utana megnezzuk h kell a tobbivel*/}   
-      <div className='foods-box'>{PIZZAS.map((pizza)=>(
-        <MenuItem data={pizza}/>
+       
+      <div className='pizza-box '>{PIZZAS.map((pizza)=>(
+        <MenuItem data={pizza} />
       ))}</div>
 
       <div className='box'></div>
-    </>
+    </div>
   )
 }

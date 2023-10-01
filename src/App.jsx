@@ -6,6 +6,8 @@ import {Menu} from './components/menu/Menu'
 import {Cart} from './components/cart/Cart'
 import {Order} from './components/order/Order'
 import {Nav} from './components/nav/Nav'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { PizzaDetails } from './components/details/PizzaDetails';
 
 function App() {
  
@@ -19,6 +21,7 @@ function App() {
         <Route path='/pizza-house/menu' element={<Menu />} />
         <Route path='/pizza-house/cart' element={<Cart />} />
         <Route path='/pizza-house/order' element={<Order/>} />
+        <Route path='/pizza-house/details/:id' element={<PizzaDetails/>} />
       </Routes>
       </div>
     </Router>
