@@ -1,11 +1,23 @@
 /* CSS FOR MENU AND MENUITEM */ 
 
+
+
 .menu-title{
     position: absolute;
-    left:4vw;
     top:10vh;
     letter-spacing: 4px;
+    display: flex;
+    justify-content:space-evenly;
+    width:100%;
 }
+
+.menu-title h1{
+    padding-top:1.5vh;
+    margin-right: 1rem;
+}
+
+
+
 
 .foods-box{
     position: absolute;
@@ -62,6 +74,11 @@
         margin:20px;
     }
 }
+
+@media screen and (min-width:1200px) {
+   
+}
+
 
 
 @media screen and (max-width:450px) {
