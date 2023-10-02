@@ -9,14 +9,15 @@
     display: flex;
     justify-content:space-evenly;
     width:100%;
+    cursor:pointer;
+    background:linear-gradient( green, white, red);
+  
 }
 
 .menu-title h1{
     padding-top:1.5vh;
     margin-right: 1rem;
 }
-
-
 
 
 .foods-box{
@@ -32,7 +33,7 @@
 }
 
 
-.pizza-box{
+.food-box{
     display:flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -46,12 +47,13 @@
     text-align: center;
     margin-bottom:5vh;
     font-family: 'Lobster', cursive;
+    cursor: pointer;
 }
 
 /* MEDIA QUERIES --------------------------*/
 
 @media screen and (min-width:1432px){
-    .pizza-box{
+    .food-box{
         margin-left:8vw;
         margin-right: auto;
     }
@@ -59,7 +61,7 @@
 
 
 @media screen and (min-width:1315px){
-    .pizza-box{
+    .food-box{
         margin-left:13vw;
         margin-right: auto;
     }
@@ -75,14 +77,25 @@
     }
 }
 
-@media screen and (min-width:1200px) {
-   
+
+@media screen and (max-width:900px) {
+    .pizza-img{
+        width:200px;
+    }
+}
+
+
+
+@media screen and (max-width:650px) {
+    .pizza-img{
+        width:200px;
+    }
 }
 
 
 
 @media screen and (max-width:450px) {
     .pizza-img{
-        width:230px
+        width:150px;
     }
 }

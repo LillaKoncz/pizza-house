@@ -2,6 +2,10 @@ import React from 'react'
 import { Nav } from '../nav/Nav'
 import './Menu.css'
 import PIZZAS from '../../assets/PIZZA'
+import DRINKS from '../../assets/DRINK'
+import POMMES from '../../assets/POMMES'
+import HAMBURGERS from '../../assets/HAMBURGER'
+import SAUCES from '../../assets/SAUCE'
 import {MenuItem} from './MenuItem'
 import background from '../../images/background.jpg'
 import drinks from '../../images/icons/drinks-icon.png'
@@ -26,11 +30,31 @@ export const Menu = () => {
 
 
        
-      <div className='pizza-box '>{PIZZAS.map((pizza)=>(
+      <div className='food-box '>
+        {PIZZAS.map((pizza)=>(
         <MenuItem data={pizza} key={pizza.id} />
       ))}</div>
 
-      <div className='box'></div>
+      <div className='food-box'>{HAMBURGERS.map((hamburger) => (
+        <MenuItem data={hamburger} key={hamburger.id} />
+      ))}</div>
+
+      <div className='food-box'>{POMMES.map((pommes) => (
+        <MenuItem data={pommes} key={pommes.id}/>
+      ))}</div>
+
+      <div className='food-box'>{DRINKS.map((drink)=>(
+        <MenuItem data={drink} key={drink.id}/>
+      ))}</div>
+
+
+
+<div className='food-box'>{SAUCES.map((sauce)=>(
+        <MenuItem data={sauce} key={sauce.id}/>
+      ))}</div>
     </div>
+
+
+
   )
 }
