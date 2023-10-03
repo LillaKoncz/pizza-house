@@ -7,18 +7,21 @@ const SAUCES = [
         id:30,
         name:'Ketchup',
         image: ketchup,
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incid'
+        price:20,
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incid.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incid.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incid.'
     }, {    
         id:31,
         name:'BBQ',
         image: BBQ,
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incid'
+        price:20,
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incid.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incid.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incid.'
     }, 
     {
         id:32,
         name:'Mayo',
         image: mayo,
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incid'
+        price:20,
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incid.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incid.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incid.'
     },  
 ]
 

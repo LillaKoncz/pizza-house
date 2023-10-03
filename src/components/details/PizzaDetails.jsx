@@ -6,6 +6,7 @@ import POMMES from '../../assets/POMMES'
 import DRINKS from '../../assets/DRINK'
 import SAUCES from '../../assets/SAUCE'
 import './PizzaDetails.css'
+import {Nav} from '../nav/Nav'
 
 
 
@@ -34,12 +35,13 @@ export const PizzaDetails = () => {
 
   return (
     <>
+     <Nav />
     <div className='food'>
       
       <div className="food-img py-5">{/*ez legyen hangsulyos, kozepen*/}
-         <img src={selectedItem.image} width='500px' alt={selectedItem.name} />
+         <img src={selectedItem.image} width='450px' alt={selectedItem.name} />
       </div>
-       
+       <div className='wrapper'>
       <div className="infos mx-5"> {/*flexbox */}
         <h1>{selectedItem.name}</h1>
         <div className='buttons'>
@@ -55,10 +57,14 @@ export const PizzaDetails = () => {
       </div>
 
       <div className='price-button mx-5'> {/*flexbox bal oldalt ar jobb oldalt button*/}
-        <h2>{selectedItem.price}</h2>
+        <h2>{selectedItem.price} DKK</h2>
         <button>Add to Cart</button>
+      </div>
       </div>
     </div>
     </>
   );
 };
+
+{/*a hajlitott border csak 600px alatt legyen jo a feher hatter.
+a hajlitast feljebb lehet venni mint 30px holnap szorakozzal vele */}
