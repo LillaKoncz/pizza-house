@@ -5,6 +5,7 @@ import HAMBURGERS from '../../assets/HAMBURGER'
 import POMMES from '../../assets/POMMES'
 import DRINKS from '../../assets/DRINK'
 import SAUCES from '../../assets/SAUCE'
+import './PizzaDetails.css'
 
 
 
@@ -32,9 +33,32 @@ export const PizzaDetails = () => {
   }
 
   return (
-    <div className='pizzas'>
-      <h1>{selectedItem.name}</h1>
-      <img src={selectedItem.image} width='300px' alt={selectedItem.name} />
+    <>
+    <div className='food'>
+      
+      <div className="food-img py-5">{/*ez legyen hangsulyos, kozepen*/}
+         <img src={selectedItem.image} width='500px' alt={selectedItem.name} />
+      </div>
+       
+      <div className="infos mx-5"> {/*flexbox */}
+        <h1>{selectedItem.name}</h1>
+        <div className='buttons'>
+          <button className='plus'>+</button>
+          <input className='input'></input>{/*ezek jobb oldalt lesznek*/}
+          <button className='minus'>-</button>
+        </div>
+         
+      </div>
+
+      <div className="text mx-5">
+        <p>{selectedItem.description}</p>
+      </div>
+
+      <div className='price-button mx-5'> {/*flexbox bal oldalt ar jobb oldalt button*/}
+        <h2>{selectedItem.price}</h2>
+        <button>Add to Cart</button>
+      </div>
     </div>
+    </>
   );
 };

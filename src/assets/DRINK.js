@@ -10,7 +10,7 @@ const DRINKS = [
         id:24,
         name:'Lemonade',
         image: drinkOne,
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incid'
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incid.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incid.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incid'
     },
     {
         id:25,

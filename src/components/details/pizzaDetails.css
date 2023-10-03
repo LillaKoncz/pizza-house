@@ -1,0 +1,54 @@
+:root{
+    --bckr-color-button:rgb(41, 40, 40);
+}
+
+
+.food-img{
+    text-align: center;
+}
+
+.infos{
+    display: flex;
+    justify-content: space-between;
+}
+
+.input{
+    width:30px;
+    border:none;
+    text-align: center;
+}
+
+.plus,
+.minus{
+    border-radius: 5px;
+    width:30px;
+    height: 30px;
+    border:none;
+    background-color: var(--bckr-color-button);
+    color: whitesmoke;
+    font-weight: bold;
+    margin-top:5px;
+}
+
+.text{
+    margin-top: 3vh;
+}
+
+.price-button{
+    display: flex;
+    justify-content: space-between;
+    margin-top:7vh;
+}
+
+.price-button h2{
+    font-weight: bold;
+
+}
+
+.price-button button{
+    width:50%;
+    background-color: var(--bckr-color-button);
+    border-radius: 5px;
+    color:whitesmoke;
+
+}
