@@ -12,8 +12,7 @@ import drinks from '../../images/icons/drinks-icon.png'
 import hamburger from '../../images/icons/hamburger-icon.png'
 import pommes from '../../images/icons/pommes-icon.png'
 import pizza from '../../images/icons/pizza-icon.png'
-
-
+import AnchorLink from "react-anchor-link-smooth-scroll";
 
 
 
@@ -22,16 +21,16 @@ export const Menu = () => {
     <div className='background-menu'>
       <Nav />
       <div className='menu-title'>
-          <img className='menu-icon' src={pizza} width='70px'/>
-          <img className='menu-icon' src={hamburger} width='70px'/>
-          <img className='menu-icon'src={pommes} width='70px'/>
-          <img className='menu-icon'src={drinks} width='70px'/>
+        <AnchorLink href='#pizza'><img className='menu-icon' src={pizza} width='70px'/></AnchorLink> 
+        <AnchorLink href='#hamburger'><img className='menu-icon' src={hamburger} width='70px'/></AnchorLink>
+        <AnchorLink href='#fries'><img className='menu-icon'src={pommes} width='70px'/></AnchorLink>  
+         <AnchorLink href='#drinks'><img className='menu-icon'src={drinks} width='70px'/></AnchorLink> 
       </div>
 
 
       <div className='menu-container'>
         <div className='container'>
-          <div className='food-title'><h1>Pizza</h1></div> 
+          <div className='food-title'><h1 id='pizza'>Pizza</h1></div> 
           <div className='food-box'>{PIZZAS.map((pizza)=>(
           <MenuItem data={pizza} key={pizza.id} />
       ))}</div>
@@ -39,7 +38,7 @@ export const Menu = () => {
 
 
       <div className="container">
-      <div className='food-title'><h1>Hamburger</h1></div> 
+      <div className='food-title'><h1 id='hamburger'>Hamburger</h1></div> 
       <div className='food-box'>
       {HAMBURGERS.map((hamburger) => (
         <MenuItem data={hamburger} key={hamburger.id} />
@@ -48,7 +47,7 @@ export const Menu = () => {
 
 
         <div className="container">
-      <div className='food-title'><h1>Fries</h1></div> 
+      <div className='food-title'><h1 id='fries'>Fries</h1></div> 
       <div className='food-box'>
       {POMMES.map((pommes) => (
         <MenuItem data={pommes} key={pommes.id}/>
@@ -56,7 +55,7 @@ export const Menu = () => {
       </div>
 
         <div className="container">
-      <div className='food-title'><h1>Drinks</h1></div> 
+      <div className='food-title'><h1 id='drinks'>Drinks</h1></div> 
       <div className='food-box'>
       {DRINKS.map((drink)=>(
         <MenuItem data={drink} key={drink.id}/>
