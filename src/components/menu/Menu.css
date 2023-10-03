@@ -1,5 +1,9 @@
 /* CSS FOR MENU AND MENUITEM */ 
-
+.backround-menu{
+    align-items: center;
+    width:100vw;
+    text-align: center;
+}
 
 
 .menu-title{
@@ -10,26 +14,18 @@
     justify-content:space-evenly;
     width:100%;
     cursor:pointer;
-    background:linear-gradient( green, white, red);
-  
+    background:linear-gradient( green, white, red); 
 }
 
-.menu-title h1{
-    padding-top:1.5vh;
-    margin-right: 1rem;
+.menu-container {
+    width:100vw;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    margin-top: 20vh;
 }
 
-
-.foods-box{
-    position: absolute;
-    left: 4vw;
-    top:20vh;
-}
-
-.box{
-    position: absolute;
-    left:4vw;
-    top:25vh;
+.food-title{
+    padding-top: 2rem;
 }
 
 
@@ -38,44 +34,16 @@
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
-    max-width: 1200px;
-    margin-top:20vh;
-    margin-bottom:20vh;
+    margin-bottom:7vh;
 }
 
 .pizzaNameandImg{
     text-align: center;
-    margin-bottom:5vh;
     font-family: 'Lobster', cursive;
     cursor: pointer;
+    margin-bottom:2vh;
 }
 
-/* MEDIA QUERIES --------------------------*/
-
-@media screen and (min-width:1432px){
-    .food-box{
-        margin-left:8vw;
-        margin-right: auto;
-    }
-}
-
-
-@media screen and (min-width:1315px){
-    .food-box{
-        margin-left:13vw;
-        margin-right: auto;
-    }
-
-    .pizzaNameandImg{
-        margin:20px;
-    }
-}
-
-@media screen and (max-width:1315px) {
-    .pizzaNameandImg{
-        margin:20px;
-    }
-}
 
 
 @media screen and (max-width:900px) {
@@ -83,7 +51,6 @@
         width:200px;
     }
 }
-
 
 
 @media screen and (max-width:650px) {

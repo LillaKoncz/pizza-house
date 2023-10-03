@@ -13,8 +13,8 @@ const handleNavigate = () => {
 }
 
   return (
+    <>
     <div className='pizzas'>
-    
       <div className='pizzaNameandImg'>
         <img 
         onClick={handleNavigate}
@@ -24,5 +24,6 @@ const handleNavigate = () => {
         <div>{name}</div>
       </div>
     </div>
+    </>
   )
 }
