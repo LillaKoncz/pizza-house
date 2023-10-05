@@ -1,5 +1,5 @@
 import ketchup from '../images/sauce/ketchups.png';
-import BBQ from '../images/sauce/BBQs.png';
+import bbq from '../images/sauce/BBQs.png';
 import mayo from '../images/sauce/mayos.png';
 
 const SAUCES = [
@@ -12,7 +12,7 @@ const SAUCES = [
     }, {    
         id:31,
         name:'BBQ',
-        image: BBQ,
+        image: bbq,
         price:20,
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incid.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incid.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incid.'
     }, 
