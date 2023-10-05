@@ -1,10 +1,10 @@
-import hamburgerOne from '../images/hamburgers/hamburger-1.png';
-import hamburgerTwo from '../images/hamburgers/hamburger-2.png';
-import hamburgerThree from '../images/hamburgers/hamburger-3.png';
-import hamburgerFour from '../images/hamburgers/hamburger-4.png';
-import hamburgerFive from '../images/hamburgers/hamburger-5.png';
-import hamburgerSix from '../images/hamburgers/hamburger-6.png';
-import hamburgerSeven from '../images/hamburgers/hamburger-7.png';
+import hamburgerOne from '../images/hamburgers/hamburgers-1.png';
+import hamburgerTwo from '../images/hamburgers/hamburgers-2.png';
+import hamburgerThree from '../images/hamburgers/hamburgers-3.png';
+import hamburgerFour from '../images/hamburgers/hamburgers-4.png';
+import hamburgerFive from '../images/hamburgers/hamburgers-5.png';
+import hamburgerSix from '../images/hamburgers/hamburgers-6.png';
+import hamburgerSeven from '../images/hamburgers/hamburgers-7.png';
 
 
 const HAMBURGERS = [
@@ -17,7 +17,7 @@ const HAMBURGERS = [
     },
     { 
         id:16,
-        name: 'Cheese-and-Bacon',
+        name: 'Bacon-Cheese',
         image: hamburgerTwo,
         price:100,
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incid.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incid.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incid.'

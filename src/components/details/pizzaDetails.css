@@ -11,12 +11,13 @@
     text-align: center;
 }
 
+.food-img img{
+   width:450px;
+}
+
 .wrapper{
-    padding-top:5vh;
     padding-bottom:5vh;
-    border-radius: 50px 50px 0  0;
-    border-top:5px solid var(--bckr-color-button);
-    
+
 }
 
 .infos{
@@ -61,5 +62,48 @@
     background-color: var(--bckr-color-button);
     border-radius: 5px;
     color:whitesmoke;
+
+}
+
+/*MEDIA QUERY---------------------*/
+
+@media screen and (max-width: 500px){
+    .food-img img{
+        width:350px;
+    }
+
+    .plus, .minus{
+        margin-top:3px;
+    }
+
+}
+/*450ig jo*/
+
+
+@media screen and (max-width:450px){
+  .infos h1{
+    font-size: 1.4rem;
+  }  
+
+  .plus, .minus{
+    width:25px;
+    height: 25px;
+}
+
+.input{
+    width:25px;
+}
+
+.text{
+    font-size: 0.9rem;
+}
+
+.price-button h2{
+    font-size: 1.1rem;
+}
+
+.price-button button{
+    font-size:0.9rem;
+}
 
 }

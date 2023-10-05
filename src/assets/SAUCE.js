@@ -1,6 +1,6 @@
-import ketchup from '../images/sauce/ketchup.png';
-import BBQ from '../images/sauce/BBQ.png';
-import mayo from '../images/sauce/mayo.png';
+import ketchup from '../images/sauce/ketchups.png';
+import BBQ from '../images/sauce/BBQs.png';
+import mayo from '../images/sauce/mayos.png';
 
 const SAUCES = [
     {

@@ -25,7 +25,7 @@ import meatPaprika from'../images/pizzas/meat-paprika.png';
 
     {
         id: 2,
-        name: 'Basalicum Tomato Pizza',
+        name: 'Basalicum Tomato',
         image: basalicumTomato,
         price: 70,
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incid.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incid.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incid',
@@ -69,7 +69,7 @@ import meatPaprika from'../images/pizzas/meat-paprika.png';
     },
     {
         id: 8,
-        name: 'Meat Lover Pizza',
+        name: 'Meat Lover',
         image: meatLover,
         price: 80,
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incid.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incid.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incid',
@@ -84,7 +84,7 @@ import meatPaprika from'../images/pizzas/meat-paprika.png';
     },
     {
         id: 10,
-        name: 'Mushrom Tomato Pizza',
+        name: 'Mushrom Tomato',
         image: mushromTomato,
         price: 80,
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incid.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incid.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incid',
@@ -105,14 +105,14 @@ import meatPaprika from'../images/pizzas/meat-paprika.png';
     },
     {
         id: 13,
-        name: 'Pepperoni Paprika Pizza',
+        name: 'Pepperoni Paprika',
         image: pizzaPepperoni,
         price: 80,
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incid.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incid.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incid',
     },
     {
         id: 14,
-        name: 'Vegan Tomato Pizza',
+        name: 'Vegan Tomato',
         image: veganTomato,
         price: 70,
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incid.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incid.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incid',

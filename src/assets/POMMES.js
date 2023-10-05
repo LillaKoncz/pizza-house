@@ -1,5 +1,5 @@
-import pommes from '../images/pommes/pommes.png';
-import nuggets from '../images/pommes/nuggets.png';
+import pommes from '../images/pommes/fries.png';
+import nuggets from '../images/pommes/nugets.png';
 
 const POMMES = [
     {

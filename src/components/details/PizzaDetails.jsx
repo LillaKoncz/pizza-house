@@ -39,7 +39,7 @@ export const PizzaDetails = () => {
     <div className='food'>
       
       <div className="food-img py-5">{/*ez legyen hangsulyos, kozepen*/}
-         <img src={selectedItem.image} width='450px' alt={selectedItem.name} />
+         <img src={selectedItem.image}  alt={selectedItem.name} />
       </div>
        <div className='wrapper'>
       <div className="infos mx-5"> {/*flexbox */}
