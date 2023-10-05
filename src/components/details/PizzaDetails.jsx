@@ -1,5 +1,5 @@
 import React from 'react'
-import { useParams, useNavigate } from 'react-router-dom'
+import { useParams } from 'react-router-dom'
 import PIZZAS from '../../assets/PIZZA'
 import HAMBURGERS from '../../assets/HAMBURGER'
 import POMMES from '../../assets/POMMES'
