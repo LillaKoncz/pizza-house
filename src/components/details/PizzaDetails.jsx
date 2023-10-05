@@ -38,15 +38,15 @@ export const PizzaDetails = () => {
      <Nav />
     <div className='food'>
       
-      <div className="food-img py-5">{/*ez legyen hangsulyos, kozepen*/}
+      <div className="food-img py-5">
          <img src={selectedItem.image}  alt={selectedItem.name} />
       </div>
        <div className='wrapper'>
-      <div className="infos mx-5"> {/*flexbox */}
+      <div className="infos mx-5"> 
         <h1>{selectedItem.name}</h1>
         <div className='buttons'>
           <button className='plus'>+</button>
-          <input className='input'></input>{/*ezek jobb oldalt lesznek*/}
+          <input className='input'></input>
           <button className='minus'>-</button>
         </div>
          
@@ -56,7 +56,7 @@ export const PizzaDetails = () => {
         <p>{selectedItem.description}</p>
       </div>
 
-      <div className='price-button mx-5'> {/*flexbox bal oldalt ar jobb oldalt button*/}
+      <div className='price-button mx-5'> 
         <h2>{selectedItem.price} DKK</h2>
         <button>Add to Cart</button>
       </div>
@@ -66,5 +66,3 @@ export const PizzaDetails = () => {
   );
 };
 
-{/*a hajlitott border csak 600px alatt legyen jo a feher hatter.
-a hajlitast feljebb lehet venni mint 30px holnap szorakozzal vele */}
