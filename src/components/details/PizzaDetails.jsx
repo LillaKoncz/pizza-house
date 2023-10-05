@@ -5,7 +5,7 @@ import HAMBURGERS from '../../assets/HAMBURGER'
 import POMMES from '../../assets/POMMES'
 import DRINKS from '../../assets/DRINK'
 import SAUCES from '../../assets/SAUCE'
-import './PizzaDetails.css'
+import './pizzaDetails.css'
 import {Nav} from '../nav/Nav'
 
 
