@@ -1,10 +1,6 @@
 import React from 'react'
 import { useParams } from 'react-router-dom'
-import PIZZAS from '../../assets/PIZZA'
-import HAMBURGERS from '../../assets/HAMBURGER'
-import POMMES from '../../assets/POMMES'
-import DRINKS from '../../assets/DRINK'
-import SAUCES from '../../assets/SAUCE'
+import FOOD from '../../assets/FOOD'
 import './pizzaDetails.css'
 import {Nav} from '../nav/Nav'
 
@@ -16,15 +12,15 @@ export const PizzaDetails = () => {
   // Find the selected item based on id
   let selectedItem;
   if (parseInt(id) >= 1 && parseInt(id) <= 14) {
-    selectedItem = PIZZAS.find(pizza => pizza.id === parseInt(id));
+    selectedItem = FOOD.find(pizza => pizza.id === parseInt(id));
   } else if (parseInt(id) >= 15 && parseInt(id) <= 21) {
-    selectedItem = HAMBURGERS.find(hamburger => hamburger.id === parseInt(id));
+    selectedItem = FOOD.find(hamburger => hamburger.id === parseInt(id));
   } else if (parseInt(id) >= 22 && parseInt(id) <= 23) {
-    selectedItem = POMMES.find(pommes => pommes.id === parseInt(id));
+    selectedItem =FOOD.find(pommes => pommes.id === parseInt(id));
   } else if (parseInt(id) >= 24 && parseInt(id) <= 29) {
-    selectedItem = DRINKS.find(drinks => drinks.id === parseInt(id));
+    selectedItem = FOOD.find(drinks => drinks.id === parseInt(id));
   } else if (parseInt(id) >= 30 && parseInt(id) <= 32) {
-    selectedItem = SAUCES.find(sauce => sauce.id === parseInt(id));
+    selectedItem = FOOD.find(sauce => sauce.id === parseInt(id));
   } else {
     selectedItem = null;
   }

@@ -8,12 +8,14 @@ import {Order} from './components/order/Order'
 import {Nav} from './components/nav/Nav'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { PizzaDetails } from './components/details/PizzaDetails';
+import { ShopContextProvider } from './components/shop-context/ShopContext';
 
 function App() {
  
 
   return (
-    <>
+  <>
+   
       <Router>
       <div>
       <Routes>
@@ -25,7 +27,8 @@ function App() {
       </Routes>
       </div>
     </Router>
-    </>
+  
+  </>
   )
 }
 

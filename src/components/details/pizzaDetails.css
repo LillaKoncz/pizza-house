@@ -67,6 +67,8 @@
 
 /*MEDIA QUERY---------------------*/
 
+
+
 @media screen and (max-width: 500px){
     .food-img img{
         width:350px;

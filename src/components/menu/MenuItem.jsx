@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom'
 
 
 export const MenuItem = (props) => {
-const {id, name, image, price, description} = props.data
+const {id, name, image, price, description} = props.data;
 
 const navigate = useNavigate();
 
