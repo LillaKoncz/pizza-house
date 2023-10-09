@@ -12,7 +12,7 @@
     letter-spacing: 4px;
     display: flex;
     justify-content:space-evenly;
-    width:100%;
+    width:100vw;
     cursor:pointer;
     background:linear-gradient( green, white, red); 
 }

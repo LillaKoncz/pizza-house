@@ -18,8 +18,12 @@
 .back{
     position: absolute;
     top:1.5vh;
-    left:2vw;
+    left:5vw;
     border:none;
     background-color: transparent;
     font-size: 1.2rem;
+}
+
+.red-link{
+    color:red;
 }

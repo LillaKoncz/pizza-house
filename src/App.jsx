@@ -15,7 +15,7 @@ function App() {
 
   return (
   <>
-   
+   <ShopContextProvider>
       <Router>
       <div>
       <Routes>
@@ -27,6 +27,7 @@ function App() {
       </Routes>
       </div>
     </Router>
+  </ShopContextProvider>
   
   </>
   )

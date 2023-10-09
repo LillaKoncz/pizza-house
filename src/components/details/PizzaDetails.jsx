@@ -3,11 +3,18 @@ import { useParams } from 'react-router-dom'
 import FOOD from '../../assets/FOOD'
 import './pizzaDetails.css'
 import {Nav} from '../nav/Nav'
+import {ShopContext} from '../shop-context/ShopContext'
+import { useContext } from 'react'
 
 
 
 export const PizzaDetails = () => {
     const { id } = useParams();
+    const {addToCart, cart} = useContext(ShopContext); 
+
+    const cartAmount = cart[id];
+
+
 
   // Find the selected item based on id
   let selectedItem;
@@ -54,7 +61,7 @@ export const PizzaDetails = () => {
 
       <div className='price-button mx-5'> 
         <h2>{selectedItem.price} DKK</h2>
-        <button>Add to Cart</button>
+        <button onClick={() => addToCart(id)}>Add to Cart {cartAmount > 0 && <>({cartAmount})</> }</button>
       </div>
       </div>
     </div>
