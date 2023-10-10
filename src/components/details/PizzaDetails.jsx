@@ -10,7 +10,7 @@ import { useContext } from 'react'
 
 export const PizzaDetails = () => {
     const { id } = useParams();
-    const {addToCart, cart} = useContext(ShopContext); 
+    const {addToCart, removeFromCart, cart} = useContext(ShopContext); 
 
     const cartAmount = cart[id];
 
@@ -48,9 +48,9 @@ export const PizzaDetails = () => {
       <div className="infos mx-5"> 
         <h1>{selectedItem.name}</h1>
         <div className='buttons'>
-          <button className='plus'>+</button>
-          <input className='input'></input>
-          <button className='minus'>-</button>
+          <button className='plus' onClick={() => addToCart(id)}>+</button>
+          <div className='input'>{cartAmount > 0 && <>{cartAmount}</> }</div>
+          <button className='minus' onClick={() => removeFromCart(id)}>-</button>
         </div>
          
       </div>
@@ -61,7 +61,7 @@ export const PizzaDetails = () => {
 
       <div className='price-button mx-5'> 
         <h2>{selectedItem.price} DKK</h2>
-        <button onClick={() => addToCart(id)}>Add to Cart {cartAmount > 0 && <>({cartAmount})</> }</button>
+        <button onClick={() => addToCart(id)}>Add to Cart {cartAmount > 0 && <>({cartAmount})</> } </button>
       </div>
       </div>
     </div>

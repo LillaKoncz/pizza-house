@@ -29,6 +29,7 @@
     width:30px;
     border:none;
     text-align: center;
+    padding-top:4px;
 }
 
 .plus,
@@ -63,6 +64,11 @@
     border-radius: 5px;
     color:whitesmoke;
 
+}
+
+.buttons{
+    display: flex;
+    flex-direction:row;
 }
 
 /*MEDIA QUERY---------------------*/
