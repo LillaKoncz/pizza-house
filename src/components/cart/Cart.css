@@ -1,6 +1,8 @@
 /*TITLE*/
 .cart-title{ 
     text-align: center;
+    font-family: 'Lobster', cursive;
+    padding-top:3vh;
 }
 
 
@@ -20,7 +22,9 @@
     padding-left:20px;
 }
 
-
+.cart-image{
+    margin-top:5px;
+}
 
 /*name and price*/ 
 .item-name, .item-price{
@@ -28,8 +32,12 @@
     font-weight: bold;
 }
 
+.item-name{
+    padding-right:20px;
+}
+
 .item-price{
-    padding-right: 20px;
+    padding-right: 25px;
 }
 
 
@@ -44,9 +52,9 @@
     width:30vw;
     height: 8vh;
     border-radius: 10px;
-    letter-spacing: 2px;
-    font-weight: bold;
-    background-color: rgb(59, 160, 59);
+    background-color:  rgb(69, 174, 114);
+    color:white;
+    font-family: 'Lobster', cursive;
 }
 
 
@@ -57,4 +65,19 @@
     padding-right: 20px;
     font-weight: bold;
     font-size: 1.3rem;
+}
+
+
+/*MEDIA QUERIES*/ 
+@media screen and (max-width:450px){
+    .cart-item{
+        margin-left:0;
+        margin-right:0;
+    }
+
+    .item-name, .item-price{
+        padding-top:15px;
+        font-weight: bold;
+    }
+
 }

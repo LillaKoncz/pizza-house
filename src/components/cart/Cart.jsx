@@ -4,13 +4,20 @@ import { CartItem } from './CartItem'
 import FOOD from '../../assets/FOOD'
 import { ShopContext } from '../shop-context/ShopContext'
 import './Cart.css'
+import { Order } from '../order/Order'
+import { useNavigate } from 'react-router-dom'
 
 
 
 export const Cart = () => {
-  const {addToCart, cart} = useContext(ShopContext); 
+  const {addToCart, cart, getTotalPrice} = useContext(ShopContext); 
 
- 
+ const navigate = useNavigate();
+ const totalAmount = getTotalPrice();
+
+ const handleNavigate = () => {
+ navigate('/pizza-house/order')}
+
   return (
     <>
     <Nav />
@@ -27,9 +34,9 @@ export const Cart = () => {
       </div>
 
       <div className='total-price'>
-        <p>TOTAL</p> <p> DKK </p>
+        <p>TOTAL</p> <p>{totalAmount} DKK</p>
       </div> 
-      <div className='order-button'><button className='order'>Order</button></div>
+      <div className='order-button'><button onClick={handleNavigate} className='order'>Order</button></div>
 
     </div>
     
